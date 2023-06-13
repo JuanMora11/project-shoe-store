@@ -1,0 +1,39 @@
+.main__contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 0em .7em;
+    text-align: center;
+}
+
+.main__form{
+    display: grid;
+    justify-items: center;
+    gap: 1.5em;
+}
+
+.main__input{
+    width: 80%;
+    max-width: 300px;
+    outline: none;
+    border: 1px solid black;
+    padding: 1em;
+    font: inherit;
+    border-radius: .6em;
+}
+
+.main__input--send{
+    background-color: #5b5f63;
+    color: #fff;
+    font-weight: 600;
+    max-width: 250px;
+}
+
+.main__title{
+  font-size: 2.3rem;
+}
+
+.main__paragraph{
+  margin: .3em 0;
+}
